@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: b7555b4315e69e942b8199a83e124742
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Park
+  - first:
+      213: 21300002
+    second: ArrowRight
+  - first:
+      213: 21300004
+    second: ABS
+  - first:
+      213: 21300006
+    second: Accelerator
+  - first:
+      213: 21300008
+    second: steering wheel
+  - first:
+      213: 21300010
+    second: CameraCycle
+  - first:
+      213: 21300012
+    second: ArrowLeft
+  - first:
+      213: 21300014
+    second: BrakeButton
+  - first:
+      213: 21300016
+    second: BrakePedal
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Park
+      rect:
+        serializedVersion: 2
+        x: 584.0761
+        y: 130.0129
+        width: 53.84776
+        height: 46.91096
+      alignment: 9
+      pivot: {x: 0.5185709, y: 0.5326492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -23.4684}
+        - {x: -27, y: -10.4684}
+        - {x: -27, y: 15.5316}
+        - {x: -21, y: 23.5316}
+        - {x: 22, y: 23.5316}
+        - {x: 27, y: 17.5316}
+        - {x: 27, y: -9.468397}
+        - {x: 22, y: -23.4684}
+        - {x: -11, y: -23.4684}
+        - {x: -14, y: -21.4684}
+        - {x: -17, y: -23.4684}
+      physicsShape:
+      - - {x: 18, y: 21.5316}
+        - {x: -16, y: 21.5316}
+        - {x: -26, y: 12.5316}
+        - {x: -26, y: -6.468397}
+        - {x: -18, y: -19.4684}
+        - {x: 18, y: -19.4684}
+        - {x: 26, y: -9.468397}
+        - {x: 26, y: 7.531603}
+        - {x: 22, y: 16.5316}
+      - - {x: -11, y: -7.468397}
+        - {x: -2.999998, y: 14.5316}
+        - {x: 9.000002, y: 12.5316}
+        - {x: 13, y: 6.531602}
+        - {x: 5.000002, y: -12.4684}
+      - - {x: -0.9999981, y: -3.468397}
+        - {x: -3.999998, y: -6.468397}
+        - {x: -3.999998, y: -8.468396}
+        - {x: -0.9999981, y: -11.4684}
+        - {x: 1.000002, y: -11.4684}
+        - {x: 4.000002, y: -10.4684}
+        - {x: 4.000002, y: -5.468397}
+        - {x: 3.000002, y: -3.468397}
+      - - {x: -4.999998, y: 14.5316}
+        - {x: -4.999998, y: 8.531603}
+        - {x: -3.999998, y: -0.4683971}
+        - {x: -2.999998, y: -3.468397}
+        - {x: 2.000002, y: -3.468397}
+        - {x: 5.000002, y: -2.468397}
+        - {x: 5.000002, y: 13.5316}
+        - {x: 2.000002, y: 16.5316}
+        - {x: -1.999998, y: 16.5316}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79168a65cb04f7aae5f804e187db523
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowRight
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 324
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -57, y: 60}
+        - {x: -60, y: 56}
+        - {x: -60, y: -51}
+        - {x: -55, y: -60}
+        - {x: 57, y: -60}
+        - {x: 60, y: -51}
+        - {x: 60, y: 60}
+      - - {x: -51, y: -42}
+        - {x: -42, y: 51}
+        - {x: 51, y: 42}
+        - {x: 42, y: -51}
+      - - {x: 35, y: 4}
+        - {x: -24, y: 38}
+        - {x: -27, y: 38}
+        - {x: -29, y: 36}
+        - {x: -29, y: -34}
+        - {x: -27, y: -35}
+        - {x: -22, y: -35}
+        - {x: 11, y: -15}
+        - {x: 31, y: -5}
+        - {x: 35, y: 1}
+      - - {x: -17, y: 19}
+        - {x: -12, y: -13}
+        - {x: -16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dd1df5c281467d90d98f6e9b4f3779
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ABS
+      rect:
+        serializedVersion: 2
+        x: 520.0761
+        y: 262.0429
+        width: 54.8876
+        height: 46.88097
+      alignment: 9
+      pivot: {x: 0.4905276, y: 0.5536808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.48008, y: -23.48339}
+        - {x: -27.51992, y: -23.48339}
+        - {x: -27.51992, y: 13.51661}
+        - {x: -24.51992, y: 23.51661}
+        - {x: 20.48008, y: 23.51661}
+        - {x: 27.48008, y: 9.516607}
+        - {x: 27.48008, y: -21.48339}
+      physicsShape:
+      - - {x: 18.48008, y: 21.51661}
+        - {x: -17.51992, y: 21.51661}
+        - {x: -19.51992, y: 19.51661}
+        - {x: -25.51992, y: 12.51661}
+        - {x: -26.51992, y: 7.516607}
+        - {x: -26.51992, y: -6.483393}
+        - {x: -18.51992, y: -19.48339}
+        - {x: 4.480081, y: -19.48339}
+        - {x: 11.48008, y: -17.48339}
+        - {x: 18.48008, y: -19.48339}
+        - {x: 25.48008, y: -7.483392}
+        - {x: 25.48008, y: 10.51661}
+      - - {x: -11.51992, y: -7.483392}
+        - {x: -6.519918, y: 14.51661}
+        - {x: 2.480082, y: 14.51661}
+        - {x: 13.48008, y: 5.516607}
+        - {x: 4.480081, y: -12.48339}
+      - - {x: -4.519918, y: -2.483392}
+        - {x: -2.519918, y: -4.483393}
+        - {x: 0.4800816, y: -3.483393}
+        - {x: 0.4800816, y: 4.516607}
+        - {x: -1.519918, y: 6.516607}
+        - {x: -4.519918, y: 5.516607}
+      - - {x: -9.519918, y: 6.516607}
+        - {x: -11.51992, y: 4.516607}
+        - {x: -13.51992, y: -1.483393}
+        - {x: -11.51992, y: -3.483393}
+        - {x: -5.519918, y: -3.483393}
+        - {x: -4.519918, y: -0.4833927}
+        - {x: -4.519918, y: 4.516607}
+        - {x: -7.519918, y: 6.516607}
+      - - {x: 5.480082, y: 7.516607}
+        - {x: 2.480082, y: 6.516607}
+        - {x: 0.4800816, y: 1.516607}
+        - {x: 0.4800816, y: -3.483393}
+        - {x: 13.48008, y: -3.483393}
+        - {x: 13.48008, y: 2.516607}
+        - {x: 10.48008, y: 7.516607}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc46cead4559493db5e7a5af49e8e3bd
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accelerator
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: 50, y: 41}
+        - {x: 49, y: 45}
+        - {x: 42, y: 60}
+        - {x: -37, y: 60}
+        - {x: -50, y: 52}
+        - {x: -50, y: -55}
+        - {x: -48, y: -60}
+        - {x: 7, y: -60}
+        - {x: 16, y: -46}
+        - {x: 37, y: -27}
+        - {x: 50, y: -4}
+      - - {x: -40, y: -42}
+        - {x: -40, y: 42}
+        - {x: -32, y: 50}
+        - {x: 40, y: 42}
+        - {x: 12, y: -34}
+        - {x: -9.999999, y: -50}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff77e2b7d7044823ab00b69404971862
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steering wheel
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -128}
+        - {x: -128, y: 128}
+        - {x: 128, y: 128}
+        - {x: 128, y: -128}
+      physicsShape:
+      - - {x: 103, y: -83}
+        - {x: 113, y: -66.99999}
+        - {x: 119, y: -55}
+        - {x: 125, y: -40}
+        - {x: 128, y: -29}
+        - {x: 128, y: 34}
+        - {x: 116, y: 62}
+        - {x: 105, y: 79}
+        - {x: 83, y: 103}
+        - {x: 66.99999, y: 113}
+        - {x: 46, y: 124}
+        - {x: 31, y: 128}
+        - {x: -31, y: 128}
+        - {x: -40, y: 126}
+        - {x: -55, y: 119}
+        - {x: -72, y: 110}
+        - {x: -82, y: 102}
+        - {x: -102, y: 82}
+        - {x: -113, y: 66.99999}
+        - {x: -119, y: 55}
+        - {x: -126, y: 40}
+        - {x: -128, y: 29}
+        - {x: -128, y: -31}
+        - {x: -126, y: -40}
+        - {x: -119, y: -55}
+        - {x: -110, y: -72}
+        - {x: -102, y: -82}
+        - {x: -82, y: -102}
+        - {x: -72, y: -110}
+        - {x: -55, y: -120}
+        - {x: -45, y: -123}
+        - {x: -40, y: -125}
+        - {x: -29, y: -128}
+        - {x: 30, y: -128}
+        - {x: 34, y: -127}
+        - {x: 56, y: -120}
+        - {x: 75, y: -109}
+      - - {x: -28, y: -89}
+        - {x: -48, y: -81}
+        - {x: -63, y: -71}
+        - {x: -78, y: -54}
+        - {x: -91.99999, y: -23}
+        - {x: -48, y: -24}
+        - {x: -35, y: -29}
+        - {x: -24, y: -48}
+        - {x: -23, y: -91.99999}
+      - - {x: 24, y: -48}
+        - {x: 48, y: -24}
+        - {x: 91.99999, y: -23}
+        - {x: 71, y: -63}
+        - {x: 54, y: -78}
+        - {x: 23, y: -91.99999}
+      - - {x: -12, y: -16}
+        - {x: -20, y: -4}
+        - {x: -16, y: 12}
+        - {x: -4, y: 20}
+        - {x: 12, y: 16}
+        - {x: 20, y: 4}
+        - {x: 16, y: -12}
+        - {x: 12, y: -16}
+        - {x: 4, y: -20}
+      - - {x: -90, y: 25}
+        - {x: -85.99999, y: 39}
+        - {x: -63, y: 70}
+        - {x: -51, y: 79.99999}
+        - {x: -32, y: 89}
+        - {x: -7, y: 94}
+        - {x: 7, y: 94}
+        - {x: 28, y: 90}
+        - {x: 48, y: 81}
+        - {x: 63, y: 71}
+        - {x: 71, y: 63}
+        - {x: 81, y: 48}
+        - {x: 85.99999, y: 39}
+        - {x: 93, y: 19}
+        - {x: 78, y: 21}
+        - {x: 50, y: 29}
+        - {x: 24, y: 41}
+        - {x: 16, y: 43}
+        - {x: -9.999999, y: 43}
+        - {x: -15, y: 42}
+        - {x: -23, y: 40}
+        - {x: -35, y: 35}
+        - {x: -56, y: 26}
+        - {x: -78, y: 21}
+        - {x: -91.99999, y: 19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ae4c7be584070b7671d343180f0b8
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CameraCycle
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 66
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32}
+        - {x: -32, y: 32}
+        - {x: 32, y: 32}
+        - {x: 32, y: -32}
+      physicsShape:
+      - - {x: -18, y: -22}
+        - {x: -18, y: -28}
+        - {x: -8, y: -28}
+        - {x: -6, y: -27}
+        - {x: -6, y: -22}
+      - - {x: -6, y: -22}
+        - {x: -6, y: -26}
+        - {x: -5, y: -28}
+        - {x: 5, y: -28}
+        - {x: 6, y: -26}
+        - {x: 6, y: -22}
+      - - {x: 23, y: -9.999999}
+        - {x: 22, y: -13}
+        - {x: 22, y: -18}
+        - {x: 21, y: -20}
+        - {x: 19, y: -21}
+        - {x: 22, y: -14}
+        - {x: 22, y: -9.999999}
+        - {x: 27, y: 9.999999}
+        - {x: 8, y: 24}
+        - {x: -17, y: 24}
+        - {x: -19, y: 23}
+        - {x: -24, y: 17}
+        - {x: -24, y: -4}
+        - {x: -2, y: -28}
+        - {x: 22, y: -28}
+        - {x: 28, y: -21}
+        - {x: 28, y: -11}
+      - - {x: -23, y: -19}
+        - {x: -27, y: -19}
+        - {x: -28, y: -22}
+        - {x: -23, y: -27}
+        - {x: -20, y: -27}
+        - {x: -18, y: -25}
+        - {x: -18, y: -23}
+      - - {x: -30, y: -19}
+        - {x: -24, y: -19}
+        - {x: -24, y: -9.999999}
+        - {x: -25, y: -8}
+        - {x: -30, y: -8}
+      - - {x: 9.999999, y: -12}
+        - {x: 9.999999, y: -9}
+        - {x: 12, y: -11}
+        - {x: 13, y: -13}
+      - - {x: 22, y: 1}
+        - {x: 22, y: -11}
+        - {x: 28, y: -11}
+        - {x: 28, y: 1}
+      - - {x: -30, y: 4}
+        - {x: -30, y: -7}
+        - {x: -25, y: -7}
+        - {x: -24, y: -5}
+        - {x: -24, y: 4}
+      - - {x: 14, y: -1}
+        - {x: 12, y: -1}
+      - - {x: 24, y: 13}
+        - {x: 22, y: 11}
+        - {x: 22, y: 3}
+        - {x: 24, y: 1}
+        - {x: 26, y: 1}
+        - {x: 28, y: 3}
+        - {x: 28, y: 11}
+        - {x: 26, y: 13}
+      - - {x: -30, y: 16}
+        - {x: -30, y: 5}
+        - {x: -24, y: 5}
+        - {x: -24, y: 15}
+        - {x: -26, y: 16}
+      - - {x: 13, y: 30}
+        - {x: 13, y: 19}
+        - {x: 17, y: 13}
+        - {x: 28, y: 13}
+        - {x: 28, y: 25}
+        - {x: 21, y: 30}
+      - - {x: -24, y: 30}
+        - {x: -30, y: 24}
+        - {x: -30, y: 17}
+        - {x: -20, y: 17}
+        - {x: -12, y: 20}
+        - {x: -12, y: 30}
+      - - {x: -9, y: 30}
+        - {x: -11, y: 28}
+        - {x: -11, y: 26}
+        - {x: -9, y: 24}
+        - {x: -2, y: 24}
+        - {x: 0, y: 26}
+        - {x: 0, y: 28}
+        - {x: -2, y: 30}
+      - - {x: 3, y: 30}
+        - {x: 1, y: 28}
+        - {x: 1, y: 26}
+        - {x: 3, y: 24}
+        - {x: 9.999999, y: 24}
+        - {x: 12, y: 26}
+        - {x: 12, y: 28}
+        - {x: 9.999999, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f18f2791e460981e85d06afdfe9b6
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArrowLeft
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 130
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -57, y: 60}
+        - {x: -60, y: 56}
+        - {x: -60, y: -51}
+        - {x: -55, y: -60}
+        - {x: 57, y: -60}
+        - {x: 60, y: -51}
+        - {x: 60, y: 60}
+      - - {x: -51, y: -42}
+        - {x: -42, y: 51}
+        - {x: 51, y: 42}
+        - {x: 42, y: -51}
+      - - {x: 23, y: 37}
+        - {x: -37, y: 4}
+        - {x: -37, y: -1}
+        - {x: -36, y: -3}
+        - {x: 9.999999, y: -28}
+        - {x: 21, y: -35}
+        - {x: 26, y: -35}
+        - {x: 28, y: -34}
+        - {x: 28, y: 35}
+        - {x: 26, y: 37}
+      - - {x: -4, y: -4}
+        - {x: 3, y: 9.999999}
+        - {x: 15, y: 18}
+        - {x: 14, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636e5938fe664da4b6f011c1bfb9ef56
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrakeButton
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 256
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -128, y: -32}
+        - {x: -128, y: 32}
+        - {x: 128, y: 32}
+        - {x: 128, y: -32}
+      physicsShape:
+      - - {x: -128, y: 32}
+        - {x: -128, y: -32}
+        - {x: 125, y: -32}
+        - {x: 128, y: -28}
+        - {x: 128, y: 29}
+        - {x: 126, y: 32}
+      - - {x: -120, y: 25}
+        - {x: 119, y: 25}
+        - {x: 119, y: -25}
+        - {x: -120, y: -24}
+      - - {x: -85, y: 19}
+        - {x: -85, y: -19}
+        - {x: -63, y: -19}
+        - {x: -59, y: -16}
+        - {x: -59, y: 15}
+        - {x: -66.99999, y: 19}
+      - - {x: -33, y: 19}
+        - {x: -52, y: 19}
+        - {x: -52, y: -19}
+        - {x: -22, y: -19}
+        - {x: -22, y: 17}
+      - - {x: 8, y: 18}
+        - {x: 5, y: 19}
+        - {x: -1, y: 19}
+        - {x: -16, y: -12}
+        - {x: -16, y: -18}
+        - {x: -14, y: -19}
+        - {x: 21, y: -19}
+        - {x: 21, y: -12}
+      - - {x: 54, y: -17}
+        - {x: 54, y: 15}
+        - {x: 52, y: 19}
+        - {x: 25, y: 19}
+        - {x: 25, y: -19}
+        - {x: 32, y: -19}
+        - {x: 34, y: -17}
+        - {x: 44, y: -19}
+        - {x: 53, y: -19}
+      - - {x: 60, y: 19}
+        - {x: 60, y: -19}
+        - {x: 84, y: -19}
+        - {x: 84, y: 19}
+      - - {x: -76, y: -5}
+        - {x: -71, y: -5}
+        - {x: -69, y: -6}
+        - {x: -70, y: -9.999999}
+      - - {x: 2, y: 4}
+        - {x: 4, y: 0}
+        - {x: 1, y: 0}
+        - {x: 2, y: 1}
+      - - {x: -76, y: 9.999999}
+        - {x: -72, y: 9}
+        - {x: -74, y: 5}
+        - {x: -76, y: 5}
+      - - {x: -43, y: 9.999999}
+        - {x: -37, y: 7}
+        - {x: -40, y: 5}
+        - {x: -43, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d21e188e24eca95e55f1f5d68738f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrakePedal
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 66
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      physicsShape:
+      - - {x: -50, y: 40}
+        - {x: -60, y: 37}
+        - {x: -60, y: -37}
+        - {x: -51, y: -40}
+        - {x: 52, y: -40}
+        - {x: 60, y: -27}
+        - {x: 60, y: 30}
+        - {x: 52, y: 40}
+      - - {x: -50, y: -22}
+        - {x: -42, y: 30}
+        - {x: 50, y: 22}
+        - {x: 42, y: -30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5f892de7847bd85165be3e0673f74
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
