@@ -14,6 +14,7 @@ public class LevelSelectionListner : MonoBehaviour
     
     public GameObject PlayButon;
     public GameObject UnlockallBtn;
+    public List<Sprite> Levelsthumbnails;
    
     private int tileWidth = 230;
     private int tileSpacing = 40;
@@ -74,6 +75,7 @@ public class LevelSelectionListner : MonoBehaviour
 
             bool lvlUnlocked = Toolbox.DB.Prefs.Get_LevelUnlockStatusOfCurrentGameMode(i);
             btnListner.Set_LevleNameTxt((i+1).ToString());
+            btnListner.set_statuLevelrender(Levelsthumbnails[i]);
             if (lvlUnlocked)
             {
                 btnListner.Lock_Status(!lvlUnlocked);

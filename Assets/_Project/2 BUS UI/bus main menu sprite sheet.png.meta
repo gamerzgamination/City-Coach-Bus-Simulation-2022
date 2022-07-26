@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1637431231611362984
-    second: bus main menu sprite sheet_0
+    second: Exit
   - first:
       213: 7663042626746930892
     second: bus main menu sprite sheet_1
@@ -16,7 +16,7 @@ TextureImporter:
     second: bus main menu sprite sheet_3
   - first:
       213: -4904725969927615856
-    second: bus main menu sprite sheet_4
+    second: hEADER
   - first:
       213: 4680038623534716966
     second: bus main menu sprite sheet_5
@@ -25,7 +25,7 @@ TextureImporter:
     second: bus main menu sprite sheet_6
   - first:
       213: 572322722400685888
-    second: bus main menu sprite sheet_7
+    second: selection bg
   - first:
       213: 1488611872191009387
     second: red button
@@ -58,16 +58,16 @@ TextureImporter:
     second: bus main menu sprite sheet_17
   - first:
       213: 4164067733308606148
-    second: Cross
+    second: rateicon
   - first:
       213: 69210611360978561
     second: cross
   - first:
       213: -5803409953319764672
-    second: bus main menu sprite sheet_20
+    second: lal
   - first:
       213: -5762421786969482244
-    second: bus main menu sprite sheet_21
+    second: hovemode
   - first:
       213: 3117851529696807772
     second: bus main menu sprite sheet_22
@@ -94,7 +94,7 @@ TextureImporter:
     second: yellowButton
   - first:
       213: 8693459528457066962
-    second: bus main menu sprite sheet_30
+    second: PrivacyIcon
   - first:
       213: 492299915959574998
     second: bus main menu sprite sheet_31
@@ -103,19 +103,19 @@ TextureImporter:
     second: bus main menu sprite sheet_32
   - first:
       213: -8915849005191960765
-    second: bus main menu sprite sheet_33
+    second: removeadsicon
   - first:
       213: -4218545633176883295
-    second: bus main menu sprite sheet_34
+    second: modebg
   - first:
       213: -2000370946044148818
-    second: bus main menu sprite sheet_35
+    second: INAPPSBG
   - first:
       213: 8739613180465580612
     second: bus main menu sprite sheet_36
   - first:
       213: 8512146106726182861
-    second: bus main menu sprite sheet_37
+    second: lOCK
   - first:
       213: -5800715851793455396
     second: bus main menu sprite sheet_38
@@ -208,7 +208,7 @@ TextureImporter:
     second: bus main menu sprite sheet_67
   - first:
       213: -560534083897599868
-    second: bus main menu sprite sheet_68
+    second: moreicon]
   - first:
       213: -1282850871316098591
     second: bus main menu sprite sheet_69
@@ -217,7 +217,7 @@ TextureImporter:
     second: bus main menu sprite sheet_70
   - first:
       213: -3831332988125972
-    second: bus main menu sprite sheet_71
+    second: removeads
   - first:
       213: 382362227832839891
     second: bus main menu sprite sheet_72
@@ -232,13 +232,34 @@ TextureImporter:
     second: bus main menu sprite sheet_75
   - first:
       213: -8997165865115275627
-    second: bus main menu sprite sheet_76
+    second: backarrow
   - first:
       213: 5313511894389019740
-    second: bus main menu sprite sheet_77
+    second: play
   - first:
       213: 3347036269528873059
     second: PopupHeader
+  - first:
+      213: 878524352613072882
+    second: bus main menu sprite sheet_79
+  - first:
+      213: -1871667908115189463
+    second: bus main menu sprite sheet_80
+  - first:
+      213: -208108723050004848
+    second: bus main menu sprite sheet_81
+  - first:
+      213: 305262781438095313
+    second: bus main menu sprite sheet_82
+  - first:
+      213: -8216216517191445282
+    second: bus main menu sprite sheet_83
+  - first:
+      213: -5812346512988010262
+    second: bus main menu sprite sheet_84
+  - first:
+      213: -4389992143526777576
+    second: bus main menu sprite sheet_85
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -324,7 +345,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 51
+    textureFormat: 50
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -336,7 +357,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bus main menu sprite sheet_0
+      name: Exit
       rect:
         serializedVersion: 2
         x: 3
@@ -420,7 +441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_4
+      name: hEADER
       rect:
         serializedVersion: 2
         x: 761
@@ -483,7 +504,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_7
+      name: selection bg
       rect:
         serializedVersion: 2
         x: 752
@@ -714,13 +735,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_20
+      name: lal
       rect:
         serializedVersion: 2
         x: 1827
         y: 1232
-        width: 211
-        height: 60
+        width: 210
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,13 +756,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_21
+      name: hovemode
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 1799
         y: 840
-        width: 230
-        height: 389
+        width: 229
+        height: 385
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1032,9 +1053,9 @@ TextureImporter:
       name: fillbar
       rect:
         serializedVersion: 2
-        x: 843
+        x: 844
         y: 573
-        width: 710
+        width: 709
         height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1055,7 +1076,7 @@ TextureImporter:
         serializedVersion: 2
         x: 844
         y: 533
-        width: 716
+        width: 711
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1239,13 +1260,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_68
+      name: moreicon]
       rect:
         serializedVersion: 2
-        x: 249
-        y: 336
-        width: 55
-        height: 56
+        x: 253
+        y: 342
+        width: 44
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,7 +1323,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_71
+      name: removeads
       rect:
         serializedVersion: 2
         x: 7
@@ -1407,7 +1428,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_76
+      name: backarrow
       rect:
         serializedVersion: 2
         x: 327
@@ -1428,13 +1449,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bus main menu sprite sheet_77
+      name: play
       rect:
         serializedVersion: 2
-        x: 6
-        y: 88
-        width: 346
-        height: 106
+        x: 8
+        y: 92
+        width: 337
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1507,6 +1528,615 @@ TextureImporter:
       bones: []
       spriteID: 186dbd03fa2e5f000800000000000000
       internalID: 69210611360978561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rateicon
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 354
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c686809a8db9c930800000000000000
+      internalID: 4164067733308606148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrivacyIcon
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 354
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d91be6916f55a870800000000000000
+      internalID: 8693459528457066962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: removeadsicon
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 381
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3476386619a844480800000000000000
+      internalID: -8915849005191960765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modebg
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 458
+        width: 211
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af67b1f817b475c0800000000000000
+      internalID: -4218545633176883295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INAPPSBG
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 91
+        width: 313
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c60619314d34e0800000000000000
+      internalID: -2000370946044148818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lOCK
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 370
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf63a7e8c7312670800000000000000
+      internalID: 8512146106726182861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1947
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6afd29aa7bf7fa0800000000000000
+      internalID: -5800715851793455396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1946
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717aafcfea4d87300800000000000000
+      internalID: 250183627352745751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1946
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd35bc7c1d462790800000000000000
+      internalID: -7555266540120752706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_42
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1950
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff21a6666cecce20800000000000000
+      internalID: 3372330145546317813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_43
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1536
+        width: 302
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc4a5c0745612c00800000000000000
+      internalID: 874091158510914743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_44
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1270
+        width: 345
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c52a2dee3ffd5c0800000000000000
+      internalID: -4188360921369650064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e13c5cb8eacd810800000000000000
+      internalID: 1791498667128200749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 720
+        width: 360
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3325f663880646140800000000000000
+      internalID: 4711997248281465395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 788
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4986f8371a7de0240800000000000000
+      internalID: 4759978944605677716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 769
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be72b2b6ef551200800000000000000
+      internalID: 150131607031938738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 750
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54923100eba29e80800000000000000
+      internalID: -8173281395142912930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 714
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3e42bc01076be0800000000000000
+      internalID: -1484216398152581932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 708
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c843df5e222ca3dc0800000000000000
+      internalID: -3658398292141853556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 708
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c10da1ba17983e50800000000000000
+      internalID: 6789342579166872007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 426
+        width: 234
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49db881773270a00800000000000000
+      internalID: 722585259636152652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_57
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 390
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e4c5249dd5b5760800000000000000
+      internalID: 7447649596489879082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_79
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 391
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff380c7e35213c00800000000000000
+      internalID: 878524352613072882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_80
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 114
+        width: 231
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921bb4f34ff7606e0800000000000000
+      internalID: -1871667908115189463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 114
+        width: 231
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb1ff0836ac1df0800000000000000
+      internalID: -208108723050004848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 246
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfe3c2e1e28c3400800000000000000
+      internalID: 305262781438095313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed45b17eb922afd80800000000000000
+      internalID: -8216216517191445282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 138
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae88edd34a5665fa0800000000000000
+      internalID: -5812346512988010262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bus main menu sprite sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 6
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81da456976d9313c0800000000000000
+      internalID: -4389992143526777576
       vertices: []
       indices: 
       edges: []

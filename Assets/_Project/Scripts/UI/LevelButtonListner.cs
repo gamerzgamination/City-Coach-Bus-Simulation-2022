@@ -11,6 +11,7 @@ public class LevelButtonListner : MonoBehaviour
     public GameObject buttonObj;
     //public GameObject watchVideoUnlockBtn;
     public GameObject lockObj;
+    public Image Render;
     //public GameObject PlayedState;
     //public GameObject NewLevel;
   //public GameObject[] stars;
@@ -53,6 +54,10 @@ public class LevelButtonListner : MonoBehaviour
       //  Outline.SetActive(_val);
     }
 
+    public void set_statuLevelrender(Sprite sprt)
+    {
+        Render.sprite = sprt;
+    }
     //public void Set_NewLevelstatus(bool _Val)
     //{
     //    NewLevel.SetActive(_Val);
