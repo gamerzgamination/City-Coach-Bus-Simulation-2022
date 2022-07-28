@@ -58,6 +58,19 @@ public class GunSelectionListner : MonoBehaviour
        // Invoke("ShowMegaOffers",1f);
     }
 
+
+
+    private void Update()
+    {
+        statsUpdate();
+    }
+
+    private void statsUpdate()
+    {
+        attributeFillImg[0].fillAmount = Mathf.Lerp(attributeFillImg[0].fillAmount, vehiclesData.speed,Time.deltaTime*5);
+        attributeFillImg[1].fillAmount = Mathf.Lerp(attributeFillImg[1].fillAmount, vehiclesData.handling ,Time.deltaTime*5);
+        attributeFillImg[2].fillAmount = Mathf.Lerp(attributeFillImg[2].fillAmount,vehiclesData.Aceleration,Time.deltaTime*5);
+    }
     private void ShowMegaOffers()
     {
         if (!Toolbox.DB.Prefs.AreAllGunsUnlocked() && !Toolbox.DB.Prefs.MegaOfferPurchased)
@@ -96,9 +109,9 @@ public class GunSelectionListner : MonoBehaviour
         //vehicleName.text = vehiclesData.name.ToString();
         vehicleCost.text = vehiclesData.cost.ToString();
 
-        attributeFillImg[0].fillAmount = vehiclesData.speed;
-        attributeFillImg[2].fillAmount = vehiclesData.handling;
-        attributeFillImg[2].fillAmount = vehiclesData.Aceleration;
+        //attributeFillImg[0].fillAmount = vehiclesData.speed;
+        //attributeFillImg[2].fillAmount = vehiclesData.handling;
+        //attributeFillImg[2].fillAmount = vehiclesData.Aceleration;
         // BarHover[_index].SetActive(true);
         Toolbox.DB.Prefs.LastSelectedVehicle = _index;
 

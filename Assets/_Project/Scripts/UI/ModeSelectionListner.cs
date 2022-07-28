@@ -20,7 +20,7 @@ public class ModeSelectionListner : MonoBehaviour
         //Toolbox.GameManager.Add_ActiveUI(this.gameObject);
         foreach (GameObject h in Hover)
             h.SetActive(false);
-        ModesItem[Toolbox.DB.Prefs.LastSelectedGameMode].transform.GetChild(1).transform.GetComponent<UIShiny>().enabled = true;
+        ModesItem[Toolbox.DB.Prefs.LastSelectedGameMode].transform.GetComponent<UIShiny>().enabled = true;
         Hover[Toolbox.DB.Prefs.LastSelectedGameMode].SetActive(true);
         //if (!Toolbox.DB.Prefs.Modesautoscroller)
         //{
@@ -164,9 +164,9 @@ public class ModeSelectionListner : MonoBehaviour
         Hover[mode].SetActive(true);
         for (int u = 0; u < ModesItem.Count; u++)
         {
-            ModesItem[u].transform.GetChild(0).transform.GetComponent<UIShiny>().enabled = false;
+            ModesItem[u].transform.GetComponent<UIShiny>().enabled = false;
         }
-        ModesItem[mode].transform.GetChild(0).transform.GetComponent<UIShiny>().enabled = true;
+        ModesItem[mode].transform.GetComponent<UIShiny>().enabled = true;
         this.GetComponentInParent<UIManager>().ShowNextUI();
 
         switch (mode)

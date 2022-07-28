@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: SNIPER
   cost: 15000
-  speed: 0.367
-  handling: 0.207
-  Aceleration: 0.027
+  speed: 0.95
+  handling: 0.463
+  Aceleration: 0.872

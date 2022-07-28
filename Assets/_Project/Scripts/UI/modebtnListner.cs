@@ -20,25 +20,19 @@ public class modebtnListner : MonoBehaviour
         this.GetComponentInParent<ModeSelectionListner>().OnPress_ModeButton(_buttonTransform);
     }
 
-    public void OnPress_ChapterLockButton(int index)
+    public void OnPress_ChapterLockButton()
     {
         Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.GameUIclicks);
-        if(Toolbox.DB.Prefs.GameData[Toolbox.DB.Prefs.LastSelectedGameMode].Modeunlocked)
-        {
-            this.GetComponentInParent<ModeSelectionListner>().OnPress_UnlockAllChapter();
-        }
-        else
-        {
-            Toolbox.UIManager.ModeLockPopup.SetActive(true);
-            Toolbox.UIManager.ModeLockPopup.GetComponent<MessageListner>().UpdateTxt("This chapter is currently locked. Play atleast " + (Constants.mode2UnlockAfterLevels + 1) + " levels of current chapter to unlock the glory of this chapter", "LOCKED");
-        }
-        }
+
+        Toolbox.UIManager.ModeLockPopup.SetActive(true);
+        Toolbox.UIManager.ModeLockPopup.GetComponent<MessageListner>().UpdateTxt("This Mode is currently locked. Play atleast " + (Constants.mode2UnlockAfterLevels) + " levels of current chapter to unlock the glory of this chapter", "MODELOCKED");
+    }
 
     public void OnPress_ChapterLock_ComingSoon()
     {
         Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.GameUIclicks);
         Toolbox.UIManager.ModeLockPopup.SetActive(true);
-        Toolbox.UIManager.ModeLockPopup.GetComponent<MessageListner>().UpdateTxt("This chapter is currently locked. Coming Soon" , "LOCKED");
+        Toolbox.UIManager.ModeLockPopup.GetComponent<MessageListner>().UpdateTxt("This Mode is currently locked. Coming Soon" , "LOCKED");
     }
     #endregion
 

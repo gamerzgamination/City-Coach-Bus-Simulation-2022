@@ -15,5 +15,5 @@ MonoBehaviour:
   name: SMG3
   cost: 18000
   speed: 0.599
-  handling: 0.433
-  Aceleration: 0.24
+  handling: 0.86
+  Aceleration: 0.688

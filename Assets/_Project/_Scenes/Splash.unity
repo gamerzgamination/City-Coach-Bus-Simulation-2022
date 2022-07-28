@@ -1833,11 +1833,6 @@ MonoBehaviour:
       levelstar: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
       lastselectedlevelofchapter: 0
       modeunlocked: 0
-    - Name: SnowMode
-      levelUnlocked: 01000000000000000000
-      levelstar: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-      lastselectedlevelofchapter: 0
-      modeunlocked: 0
     lastSelectedGameMode: 0
     lastSelectedchapter_of_gamemode: 0
     lastSelectedscenename: 
@@ -1845,7 +1840,7 @@ MonoBehaviour:
     noAdsPurchased: 0
     megaOfferPurchased: 0
     lastSelectedVehicle: 0
-    vehiclesUnlocked: 010000000000
+    vehiclesUnlocked: 01000000
     dailyRewardDay: 0
     dailyRewardTime: 
     defaultController: 0

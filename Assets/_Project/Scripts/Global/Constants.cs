@@ -153,7 +153,7 @@ public static class Constants{
         750
     };
 
-    public const int mode2UnlockAfterLevels = 3;
+    public const int mode2UnlockAfterLevels = 5;
 
     //public const string admob_IAd_ID = " ";
     //public const string admob_RAd_ID = "ca-app-pub-3940256099942544/5224354917";

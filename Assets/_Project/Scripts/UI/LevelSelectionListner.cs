@@ -79,12 +79,12 @@ public class LevelSelectionListner : MonoBehaviour
             if (lvlUnlocked)
             {
                 btnListner.Lock_Status(!lvlUnlocked);
-                btnListner.buttonObj.SetActive(true);
+               // btnListner.buttonObj.SetActive(true);
             }
             else
             {
                 btnListner.Lock_Status(!lvlUnlocked);
-                btnListner.buttonObj.SetActive(false);
+               // btnListner.buttonObj.SetActive(false);
             }
             //btnListner.Stars_Status(lvlUnlocked, Toolbox.DB.Prefs.Get_LevelStarsOfCurrentGameMode(i));
 
