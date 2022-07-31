@@ -356,7 +356,13 @@ public class HUDListner : MonoBehaviour
 
     public void set_StatusFade(bool _Val)
     {
+
         Fade.SetActive(_Val);
+        if (!_Val)
+        {
+            Fade.GetComponent<CanvasGroup>().alpha=0f;
+            StopCoroutine(FadeLoadingScreen(0, 0));
+        }
     }
     public IEnumerator FadeLoadingScreen(float targetValue, float duration)
     {

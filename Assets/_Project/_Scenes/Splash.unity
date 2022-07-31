@@ -1771,11 +1771,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultSoundSourceVolume: 0.7
-  defaultMusicSourceVolume: 0.6
+  defaultMusicSourceVolume: 0.7
   soundSource: {fileID: 1463028484}
   musicSource: {fileID: 112200938}
   menuBG: {fileID: 8300000, guid: 76f99dd3a2e7d414899c653c0d1d4761, type: 3}
-  gameBG: {fileID: 8300000, guid: 7180bb56865a62443be3a64e2c5c2b97, type: 3}
+  gameBG: {fileID: 8300000, guid: 708dac91e0e27114c8b50dd8aa05b51e, type: 3}
   Gearshiftingclip: {fileID: 8300000, guid: 26bd820c0465be445839e4a43b4e184c, type: 3}
   RevreseBeepclip: {fileID: 8300000, guid: f93250eca71c75249a3c430aae013b8e, type: 3}
   CarLock: {fileID: 8300000, guid: 356fa1b78bc0cb345a017445030b6f9a, type: 3}

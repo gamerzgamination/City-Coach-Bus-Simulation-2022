@@ -3,6 +3,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Coffee.UIEffects;
 //using GoogleMobileAds.Api;
 public class LevelSelectionListner : MonoBehaviour
 {
@@ -79,12 +80,10 @@ public class LevelSelectionListner : MonoBehaviour
             if (lvlUnlocked)
             {
                 btnListner.Lock_Status(!lvlUnlocked);
-               // btnListner.buttonObj.SetActive(true);
             }
             else
             {
                 btnListner.Lock_Status(!lvlUnlocked);
-               // btnListner.buttonObj.SetActive(false);
             }
             //btnListner.Stars_Status(lvlUnlocked, Toolbox.DB.Prefs.Get_LevelStarsOfCurrentGameMode(i));
 
@@ -108,12 +107,17 @@ public class LevelSelectionListner : MonoBehaviour
             //hightlight last selected level
             if (i == Toolbox.DB.Prefs.Get_LastUnlockedLevelofCurrentGameMode())
             {
-              //  btnListner.buttonObj.SetActive(false);
-               // btnListner.Set_NewLevelstatus(true);
+                btnListner.buttonObj.GetComponent<UIShiny>().enabled = true;
+                btnListner.buttonObj.transform.GetChild(0).transform.gameObject.SetActive(true);
+
+                //  btnListner.buttonObj.SetActive(false);
+                // btnListner.Set_NewLevelstatus(true);
 
             }
             else
             {
+                btnListner.buttonObj.GetComponent<UIShiny>().enabled = false;
+                btnListner.buttonObj.transform.GetChild(0).transform.gameObject.SetActive(false);
                 //btnListner.Set_NewLevelstatus(false);
             }
 
@@ -147,9 +151,11 @@ public class LevelSelectionListner : MonoBehaviour
         Mainmenubg.SetActive(false);
         for (int i = 0; i < content.childCount; i++)
             {
-               if (_buttonObj == content.GetChild(i).gameObject) 
+            content.GetChild(i).transform.GetChild(0).transform.GetChild(0).gameObject.SetActive(false);
+            if (_buttonObj == content.GetChild(i).gameObject) 
                {
-                  Toolbox.DB.Prefs.Set_LastSelectedLevelOfCurrentGameMode(i);
+                content.transform.GetChild(i).GetChild(0).transform.GetChild(0).gameObject.SetActive(true);
+                Toolbox.DB.Prefs.Set_LastSelectedLevelOfCurrentGameMode(i);
                   PlayButon.SetActive(true);
                   return;
                }

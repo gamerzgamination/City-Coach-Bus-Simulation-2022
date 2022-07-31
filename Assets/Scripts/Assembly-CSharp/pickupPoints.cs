@@ -4,7 +4,7 @@ public class pickupPoints : MonoBehaviour
 {
 	public GameObject StandPasengers;
 
-	public GameObject fadecamera;
+	//public GameObject fadecamera;
 
 	public GameObject currentpoint;
 

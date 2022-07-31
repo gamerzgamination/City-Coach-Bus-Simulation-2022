@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerTriggerListener : MonoBehaviour
 {
@@ -22,11 +21,11 @@ public class PlayerTriggerListener : MonoBehaviour
 
     public bool cashDeductCounter = true;
 
-    public  bool RefuelBool;
+    public bool RefuelBool;
 
     public GameObject RefuelCompleted;
 
-    public  bool Refueling;
+    public bool Refueling;
 
     //public GameObject GameCanvas;
 
@@ -41,7 +40,7 @@ public class PlayerTriggerListener : MonoBehaviour
         {
             print("Name :" + collision.gameObject.name);
             Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.CarHitAlarm);
-           // collision.gameObject.GetComponent<MeshRenderer>().material = Toolbox.GameplayController.Redmaterial;
+            // collision.gameObject.GetComponent<MeshRenderer>().material = Toolbox.GameplayController.Redmaterial;
             GetComponent<Rigidbody>().isKinematic = true;
             Handheld.Vibrate();
             Toolbox.GameplayController.LevelFail_Delay(2f);
@@ -50,17 +49,18 @@ public class PlayerTriggerListener : MonoBehaviour
         {
             print("Name :" + collision.gameObject.name);
             Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.CarHitAlarm);
-          //  collision.gameObject.GetComponent<MeshRenderer>().material = Toolbox.GameplayController.Redmaterial;
+            //  collision.gameObject.GetComponent<MeshRenderer>().material = Toolbox.GameplayController.Redmaterial;
             GetComponent<Rigidbody>().isKinematic = true;
             Handheld.Vibrate();
             Toolbox.GameplayController.LevelFail_Delay(2f);
         }
-        if (collision.gameObject.tag == "Finish" || collision.gameObject.tag == "next" || collision.gameObject.tag == "Finish_Point" )
+        if (collision.gameObject.tag == "Finish" || collision.gameObject.tag == "next" || collision.gameObject.tag == "Finish_Point")
         {
             //orbit_camera.GetComponent<ob>().autoRotateOn = true;
             GetComponent<Rigidbody>().isKinematic = true;
             Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.levelComplete);
-            Toolbox.GameplayController.StartCoroutine(Toolbox.GameplayController.LevelComplete_Delay(3f));
+            if (!Toolbox.GameplayController.Lvelcongrats)
+                Toolbox.GameplayController.StartCoroutine(Toolbox.GameplayController.LevelComplete_Delay(3f));
         }
     }
 
@@ -87,13 +87,14 @@ public class PlayerTriggerListener : MonoBehaviour
             col.gameObject.SetActive(false);
         }
 
-       
+
         if (col.gameObject.tag == "Finish" || col.gameObject.tag == "next" || col.gameObject.tag == "Finish_Point")
         {
             //orbit_camera.GetComponent<ob>().autoRotateOn = true;
             GetComponent<Rigidbody>().isKinematic = true;
             Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.levelComplete);
-            Toolbox.GameplayController.StartCoroutine(Toolbox.GameplayController.LevelComplete_Delay(3f));
+            if (!Toolbox.GameplayController.Lvelcongrats)
+                Toolbox.GameplayController.StartCoroutine(Toolbox.GameplayController.LevelComplete_Delay(3f));
         }
 
         if (col.gameObject.tag == "people1")
@@ -164,7 +165,7 @@ public class PlayerTriggerListener : MonoBehaviour
     }
     private void OnTriggerExit(Collider col)
     {
-        if ( col.gameObject.gameObject.tag == "refuelpoint")
+        if (col.gameObject.gameObject.tag == "refuelpoint")
         {
             RefuelBool = false;
             Refueling = false;
@@ -225,5 +226,5 @@ public class PlayerTriggerListener : MonoBehaviour
 
     }
 
-    
+
 }

@@ -44,6 +44,10 @@ public class GameplayController : MonoBehaviour
         GearShiftingsound.volume = Toolbox.DB.Prefs.MusicVolume;
         ReverseSound.volume = Toolbox.DB.Prefs.MusicVolume;
         SelectedVehiclePrefab = BusesList[Toolbox.DB.Prefs.LastSelectedVehicle];
+        LevelComplete = false;
+        levelFail = false;
+        IsRevived = false;
+        Lvelcongrats = false;
 
     }
 
@@ -90,6 +94,7 @@ public class GameplayController : MonoBehaviour
 
     public IEnumerator LevelComplete_Delay(float delay)
     {
+       
         Lvelcongrats = true;
         HUD_Status(false);
         selectedvehiclerigidbody.drag = 10f;
