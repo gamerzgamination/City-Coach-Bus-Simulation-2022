@@ -320,9 +320,16 @@ public class RCC_Camera : MonoBehaviour
 			return base.transform.position;
 		}
 		float num = Time.deltaTime * delta;
-		Vector3 vector = (targetPosition - pastTargetPosition) / num;
-		Vector3 vector2 = pastPosition - pastTargetPosition + vector;
-		return targetPosition - vector + vector2 * Mathf.Exp(0f - num);
+		if (num > 0)
+		{
+			Vector3 vector = (targetPosition - pastTargetPosition) / num;
+			Vector3 vector2 = pastPosition - pastTargetPosition + vector;
+			return targetPosition - vector + vector2 * Mathf.Exp(0f - num);
+		}
+		else
+		{
+			return transform.position;
+		}
 	}
 
 	public void Collision(Collision collision)

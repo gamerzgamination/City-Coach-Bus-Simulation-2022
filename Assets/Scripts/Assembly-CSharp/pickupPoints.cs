@@ -81,6 +81,7 @@ public class pickupPoints : MonoBehaviour
 	{
 		Toolbox.HUDListner.ParkingBar.fillAmount = 0f;
 		StandPasengers.SetActive(value: false);
+		currentpoint.GetComponentInChildren<bl_MiniMapItem>().HideItem();
 		currentpoint.SetActive(value: false);
 		nextpoint.SetActive(value: true);
 	}

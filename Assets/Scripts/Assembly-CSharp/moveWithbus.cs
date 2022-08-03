@@ -17,7 +17,7 @@ public class moveWithbus : MonoBehaviour
 
 	private void Update()
 	{
-		if ((bool)bus)
+		if (bus)
 		{
 			base.transform.position = new Vector3(bus.position.x, base.transform.position.y, bus.transform.position.z);
 			base.transform.eulerAngles = new Vector3(base.transform.eulerAngles.x, bus.transform.eulerAngles.y, base.transform.eulerAngles.z);

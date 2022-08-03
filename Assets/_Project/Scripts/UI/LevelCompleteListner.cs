@@ -34,10 +34,11 @@ public class LevelCompleteListner : MonoBehaviour
     int coinIncVal = 20;
     bool coinIncremented = false;
 
-    //private void OnEnable()
-    //{
-
-    //}
+    private void OnEnable()
+    {
+        Toolbox.Soundmanager.Stop_PlayingMusic();
+        Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.levelComplete);
+    }
 
     private void OnDisable()
     {
@@ -67,10 +68,7 @@ public class LevelCompleteListner : MonoBehaviour
         ObjectiveBonusTxt.text = "";
         HeadshotBonusTxt.text = "";
         totalCoinsTxt.text = "";
-        //Toolbox.GameManager.Log("totalcoins :"+totalCoins + "ObjectiveBonus :" + ObjectiveBonus + "HeadshotBonus :"+ HeadshotBonus);
-        //Toolbox.GameManager.Log("totalCoinsTxt :" + totalCoinsTxt.text.ToString());
-        //doubleRewardCoinsTxt.text = Mathf.RoundToInt(totalCoins * 2).ToString();
-
+        
         coinsReward = (totalCoins);
         StartCoroutine(CR_CoinsAnimation());
     }

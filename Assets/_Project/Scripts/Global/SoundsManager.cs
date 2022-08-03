@@ -89,7 +89,10 @@ public class SoundsManager : MonoBehaviour {
 	public void Stop_PlayingSound(){
 		soundSource.Stop ();
 	}
-
+	public void Stop_PlayingMusic()
+	{
+		soundSource.Stop();
+	}
 	public void PlayMusic_Menu() {
 
 		musicSource.clip = menuBG;

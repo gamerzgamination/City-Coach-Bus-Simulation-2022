@@ -269,6 +269,12 @@ TextureImporter:
   - first:
       213: 2511367755208802795
     second: buttoncontrolicon
+  - first:
+      213: -1115964710903684446
+    second: MapLocation
+  - first:
+      213: 3836843740324743366
+    second: FUEL
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2222,7 +2228,7 @@ TextureImporter:
         width: 61
         height: 169
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2230,6 +2236,48 @@ TextureImporter:
       bones: []
       spriteID: be14795eaab2ad220800000000000000
       internalID: 2511367755208802795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MapLocation
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 492
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2e6b0120c4380f0800000000000000
+      internalID: -1115964710903684446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FUEL
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 498
+        width: 105
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ccb8ad053f3530800000000000000
+      internalID: 3836843740324743366
       vertices: []
       indices: 
       edges: []

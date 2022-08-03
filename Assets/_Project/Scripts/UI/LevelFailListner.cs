@@ -9,6 +9,8 @@ public class LevelFailListner : MonoBehaviour
     public GameObject ReviveRewardBtn;
     private void OnEnable()
     {
+        Toolbox.Soundmanager.Stop_PlayingMusic();
+        Toolbox.Soundmanager.PlaySound(Toolbox.Soundmanager.levelFail);
         ////////////////////Toolbox.ObjectiveHandler.UnloadAssetsFromMemory();
     }
 

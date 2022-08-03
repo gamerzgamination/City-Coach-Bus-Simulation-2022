@@ -11,6 +11,7 @@ public class GameplayController : MonoBehaviour
 
     public GameObject Rcccamera;
     public GameObject MapCamera;
+    public bl_MiniMap[] miniMAP;
     public AudioSource GearShiftingsound;
     public AudioSource ReverseSound;
     public List<GameObject> BusesList;
@@ -73,7 +74,11 @@ public class GameplayController : MonoBehaviour
         selectedvehiclerigidbody = SelectedVehiclePrefab.GetComponent<Rigidbody>();
         selectedvehicleRCCV3 = SelectedVehiclePrefab.GetComponent<RCC_CarControllerV3>();
         Rcccamera.SetActive(true);
-        MapCamera.SetActive(true);
+        // MapCamera.SetActive(true);
+        for (int i = 0; i < miniMAP.Length; i++)
+        {
+            miniMAP[i].SetTarget(SelectedVehiclePrefab);
+        }
         HUD_Status(true);
         if (Gametutorial)
             Toolbox.HUDListner.Tutorial.SetActive(true);
