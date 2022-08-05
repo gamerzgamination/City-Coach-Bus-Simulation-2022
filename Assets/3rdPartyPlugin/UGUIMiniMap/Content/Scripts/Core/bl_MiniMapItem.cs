@@ -62,6 +62,7 @@ public class bl_MiniMapItem : MonoBehaviour {
         {
             CreateIcon();
             MiniMapOwner.RegisterItem(this);
+            Target = this.gameObject.transform;
         }
         else { Debug.Log("You need a MiniMap in scene for use MiniMap Items."); }
     }
